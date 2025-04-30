@@ -3,7 +3,7 @@ import json
 from datetime import datetime, timedelta
 
 # Load data
-file_path = '/Users/ruthik.nataraja/Desktop/Jo-Patterns-Visualization/2025-04-22 11_20am.csv'
+file_path = #'Sample_file'
 df = pd.read_csv(file_path)
 
 option_map = {
