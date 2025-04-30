@@ -6,7 +6,7 @@ pd.set_option('display.max_columns', None)
 pd.set_option('display.width', None)
 
 # Load your data
-df = pd.read_csv("/Users/ruthik.nataraja/Desktop/Jo-Patterns-Visualization/filtered_events - 2 copy.csv")  # replace with your actual file
+df = pd.read_csv("#CSV downloaded from Extracting-Duration.py")  # replace with your actual file
 
 # Convert timestamp columns to datetime
 df['EVENT_TIMESTAMP'] = pd.to_datetime(df['EVENT_TIMESTAMP'])
@@ -41,6 +41,6 @@ filtered_df = grouped[grouped['HOUR_INTERVAL'].isin(['01:00–02:00', '02:00–0
 filtered_df = filtered_df.reset_index(drop=True)
 
 # Save the filtered result to a new CSV file
-filtered_df.to_csv("/Users/ruthik.nataraja/Desktop/filtered_events - final.csv", index=False)
+filtered_df.to_csv(#location.csv", index=False)
 
 
