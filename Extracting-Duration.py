@@ -140,4 +140,4 @@ for i in range(len(df) - 1):
 result_df = pd.DataFrame(results)
 
 # Save to CSV
-result_df.to_csv('/Users/ruthik.nataraja/Desktop/newyyyy.csv', index=False)
+result_df.to_csv('Location.csv', index=False) #to download
